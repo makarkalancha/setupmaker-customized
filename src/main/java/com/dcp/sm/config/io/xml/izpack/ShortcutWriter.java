@@ -76,7 +76,7 @@ public class ShortcutWriter extends StaxMateWriter
      * @param startup
      * @throws XMLStreamException
      */
-    public void addPackShortcut(Pack pack, boolean startup) throws XMLStreamException {
+    public void addPackShortcut(Pack pack, boolean startup, String logoPath) throws XMLStreamException {
         SMOutputElement shortcut = root.addElement("shortcut");
         shortcut.addAttribute("name", pack.getInstallName());
 
@@ -96,8 +96,11 @@ public class ShortcutWriter extends StaxMateWriter
         shortcut.addAttribute("startMenu", "no");
         shortcut.addAttribute("startup", (startup)?"yes":"no");
 
-        if (pack != null)//Create for pack
+        shortcut.addAttribute("iconFile", logoPath);
+
+        if (pack != null) {//Create for pack
             shortcut.addElement("createForPack").addAttribute("name", pack.getInstallName());
+        }
     }
     
 }

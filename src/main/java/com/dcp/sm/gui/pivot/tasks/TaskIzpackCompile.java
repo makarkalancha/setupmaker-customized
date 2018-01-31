@@ -631,12 +631,13 @@ public class TaskIzpackCompile extends Task<Boolean>
             SW.addShortcut("Uninstall", "$INSTALL_PATH/Uninstaller", "/uninstaller.jar",
                     "", false, false);
 
-        if (setupConfig.isShortcuts())// If shortcuts install enabled
-        for(Pack P:packs) {
-            if (P.isShortcut() && P.getInstallType() != INSTALL_TYPE.EXECUTE)
-                SW.addPackShortcut(P, false);
+        if (setupConfig.isShortcuts()) {// If shortcuts install enabled
+            for (Pack P : packs) {
+                if (P.isShortcut() && P.getInstallType() != INSTALL_TYPE.EXECUTE) {
+                    SW.addPackShortcut(P, false,setupConfig.getLogoPath());
+                }
+            }
         }
-
         SW.close();
         return true;
     }
