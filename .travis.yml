@@ -1,0 +1,8 @@
+language: java
+#before_install: ant clean
+install: true
+script: ant compile
+#after_success: ant dist
+jdk:
+  - oraclejdk8
+  - oraclejdk9
