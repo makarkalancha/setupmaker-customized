@@ -48,7 +48,7 @@ import com.dcp.sm.main.log.Out;
 public class Master extends Window implements Application, Bindable
 {
     // Constant Application Values
-    public final static String AppName = "DCP Setup Maker";
+    public final static String AppName = "Smart Finance Setup";
     public static String AppVersion;
     static {
         PropertiesFactory props;

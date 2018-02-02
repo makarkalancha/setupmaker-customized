@@ -34,7 +34,7 @@
     <str id="installer.next" txt="Weiter"/>
     <str id="installer.prev" txt="Zurück"/>
     <str id="installer.quit" txt="Beenden"/>
-    <str id="installer.madewith" txt="DCP Setup Maker/IzPack"/>
+    <str id="installer.madewith" txt="Smart Finance Setup"/>
     <str id="installer.quit.title" txt="$APP_NAME $APP_VER"/>
     <str id="installer.quit.message" txt="Wollen Sie wirklich beenden?"/>
     <str id="installer.warning" txt="Warnung!"/>

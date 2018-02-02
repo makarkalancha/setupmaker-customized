@@ -8,7 +8,7 @@ DevComPack Setup Maker is a compact application designed to create Java installe
 You can tweak your installer by adding the author data and logo images before building the installer.
 
 Requirements:
-· Java
+ï¿½ Java
 
 
 IzPack
@@ -36,7 +36,7 @@ Version 2.0, January 2004
 http://www.apache.org/licenses/
 
 
-DCP Setup Maker is published under the terms of the Apache License, Version 2.0, 
+Smart Finance Setup is published under the terms of the Apache License, Version 2.0,
 meaning that you can adapt it to your needs with very minimal constraints.
 
 IzPack is published under the terms of the Apache License, Version 2.0, 
@@ -49,7 +49,7 @@ under different terms.
 /Community
 ==========
 
-DCP Setup Maker is part of the Sourceforge.net <http://sourceforge.net/>
+Smart Finance Setup is part of the Sourceforge.net <http://sourceforge.net/>
 
 * Web site: <http://www.devcompack.com/setupmaker/>
 * Download: <http://sourceforge.net/projects/devcompack/>

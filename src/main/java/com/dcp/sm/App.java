@@ -9,7 +9,7 @@ import com.dcp.sm.logic.factory.TypeFactory.LOG_LEVEL;
 import com.dcp.sm.main.log.Out;
 
 /**
- * DCP Setup Maker Application launch Class
+ * Smart Finance Setup Application launch Class
  * @author Said El Imam Said
  */
 public class App 

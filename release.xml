@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project name="DCP Setup Maker - release" default="release" basedir=".">
+<project name="Smart Finance Setup - release" default="release" basedir=".">
     <!-- ANT 1.7 is required -->
 	
     <description>

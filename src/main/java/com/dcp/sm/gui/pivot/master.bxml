@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<app:Master bxml:id="master" title="DCP Setup Maker" maximized="true"
+<app:Master bxml:id="master" title="Smart Finance Setup" maximized="true"
 	preferredWidth="500" preferredHeight="400"
 	icon="/com/dcp/sm/gui/icons/logo.png"
     xmlns:app="com.dcp.sm.gui.pivot"
@@ -89,7 +89,7 @@
 					            <buttonPressListeners>
 					                importPackage(org.apache.pivot.wtk);
 					                function buttonPressed(button) {
-					                    Alert.alert(MessageType.INFO, "DCP Setup Maker is developed by Said SAID EL IMAM, and powered by IzPack 4.3.5 and NuGet. www.devcompack.com/setupmaker ", master);
+					                    Alert.alert(MessageType.INFO, "Smart Finance Setup is developed by Said SAID EL IMAM, and powered by IzPack 4.3.5 and NuGet. www.devcompack.com/setupmaker ", master);
 					                }
 					            </buttonPressListeners>
 				            </PushButton>
